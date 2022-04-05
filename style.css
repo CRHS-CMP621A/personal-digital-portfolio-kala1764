@@ -1,2 +1,20 @@
-.main-header {
+.header {
+  display: grid;
+  grid-template-columns: 2fr 3fr auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me {
+  border: 2px dashed black;
+  flex: 1;
 }
